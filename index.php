@@ -1,5 +1,5 @@
 <?php
-    $link = new mysqli("localhost:3308", "root", "1200secs", "adsc22");
+    $link = new mysqli("localhost:3308", "root", "", "adsc22");
 
     if ($_SERVER['REQUEST_METHOD'] == 'POST') {
         //Initializing variables
