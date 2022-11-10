@@ -39,13 +39,13 @@
         }
     </style>
 </head>
-<body bgcolor="lavendar">
+<body bgcolor="lavender">
     <center><h1>Welcome to the Simple 2-Tier Application</h1></center>
     <center>
         <form action="index.php" method="POST">
             <div>
                 <input type="text" placeholder="Enter your name here" name="username"><br><br>
-                <input type="text" placeholder="Enter your email here" name="email" type="email"><br><br>
+                <input type="email" placeholder="Enter your email here" name="email"><br><br>
                 <button type="submit">submit</button>
             </div>
         </form>
